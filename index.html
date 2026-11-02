@@ -1,820 +1,170 @@
 <!doctype html>
-<html lang="EN">
-    <head>
-		<!-- Required meta tags -->
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="title" content="Taylan Transport">
-		<meta name="description" content="Çekici hizmeti, Lojistik hizmeti, Sete.">
-		<meta name="keywords" content="sete,fransa,france,ispanya,spain,çekici,cekici,hizmeti, cekici hizmeti, çekici hizmeti, sete depo, lojistik, sete warehouse, warehouse, sete douane, sete customs, sete gumruk,gümrük,ftl,ltl,hungary,container,konteyner,dorse,trailer,towing, towing service" >
-		<meta name="robots" content="index,follow" >
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taylan Transport – Container &amp; Trailer Transport</title>
+<meta name="description" content="Taylan Transport: container and trailer transport from the Port of Sète, France to all of Europe. Road transport (FTL/LTL) and customs clearance.">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<style>
+:root{--green:#53c12f;--green-d:#3f9a22;--navy:#0b1630;--ink:#1d2433;--muted:#5b6475;--bg:#ffffff;--soft:#f3f6f2;--line:#e3e8e1}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;font-size:17px}
+a{color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+header img{height:42px;display:block}
+nav{display:flex;gap:22px;align-items:center}
+nav a{text-decoration:none;font-weight:600;font-size:15px;color:var(--ink)}
+nav a:hover{color:var(--green-d)}
+.btn{display:inline-block;background:var(--green);color:#fff !important;text-decoration:none;font-weight:700;padding:12px 22px;border-radius:6px;transition:background .15s}
+.btn:hover{background:var(--green-d)}
+.btn.sm{padding:9px 16px;font-size:15px}
+.hero{position:relative;min-height:min(78vh,680px);display:flex;align-items:center;color:#fff;overflow:hidden;background:var(--navy)}
+.hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,22,48,.88),rgba(11,22,48,.45))}
+.hero .wrap{position:relative;z-index:1;width:100%;padding-top:60px;padding-bottom:60px}
+.hero h1{font-size:clamp(32px,5.5vw,56px);line-height:1.1;max-width:720px;margin-bottom:18px}
+.hero h1 span{color:var(--green)}
+.hero p{font-size:clamp(17px,2.2vw,21px);max-width:600px;opacity:.92;margin-bottom:30px}
+section{padding:80px 0}
+.kicker{color:var(--green-d);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:14px;margin-bottom:8px}
+h2{font-size:clamp(26px,3.6vw,38px);line-height:1.2;margin-bottom:14px;color:var(--navy)}
+.lead{color:var(--muted);max-width:680px;margin-bottom:44px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:26px}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+.card div{padding:22px 24px 26px}
+.card h3{font-size:21px;color:var(--navy);margin-bottom:10px}
+.card p{color:var(--muted);font-size:16px}
+.about{background:var(--soft)}
+.about .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:center}
+.about ul{list-style:none;display:grid;gap:12px}
+.about li{background:#fff;border-left:4px solid var(--green);padding:14px 18px;border-radius:6px;font-weight:600}
+.contact .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;margin-bottom:34px}
+.box{border:1px solid var(--line);border-radius:10px;padding:24px}
+.box h3{font-size:18px;color:var(--navy);margin-bottom:8px}
+.box p{color:var(--muted)}
+.box a{color:var(--green-d);font-weight:700;text-decoration:none;word-break:break-word}
+.map{width:100%;height:380px;border:0;border-radius:10px;display:block}
+footer{background:var(--navy);color:#c9d1df;padding:30px 0;font-size:15px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer a{color:#fff}
+@media (max-width:760px){
+  nav a:not(.btn){display:none}
+  .about .wrap{grid-template-columns:1fr;gap:28px}
+  section{padding:56px 0}
+  .hero{min-height:min(70vh,560px)}
+}
+@media (prefers-reduced-motion:reduce){.hero video{display:none}}
+</style>
+</head>
+<body>
 
-		<!-- Bootstrap Min CSS --> 
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<!-- Owl Theme Default Min CSS --> 
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-		<!-- Owl Carousel Min CSS --> 
-		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<!-- Animate Min CSS --> 
-		<link rel="stylesheet" href="assets/css/animate.min.css">
-		<!-- Boxicons Min CSS --> 
-		<link rel="stylesheet" href="assets/css/boxicons.min.css"> 
-		<!-- Magnific Popup Min CSS --> 
-		<link rel="stylesheet" href="assets/css/magnific-popup.min.css"> 
-		<!-- Flaticon CSS --> 
-		<link rel="stylesheet" href="assets/css/flaticon.css">
-		<!-- Meanmenu Min CSS -->
-		<link rel="stylesheet" href="assets/css/meanmenu.min.css">
-		<!-- Nice Select Min CSS -->
-		<link rel="stylesheet" href="assets/css/nice-select.min.css">
-		<!-- Odometer Min CSS-->
-		<link rel="stylesheet" href="assets/css/odometer.min.css">
-		<!-- Style CSS -->
-		<link rel="stylesheet" href="assets/css/style.css">
-		<!-- Responsive CSS -->
-		<link rel="stylesheet" href="assets/css/responsive.css">
-		
-		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="assets/img/favicon.png">
-		<!-- Title -->
-		<title>Taylan Transport - Logistics Company </title>
-    </head>
+<header>
+  <div class="wrap">
+    <a href="#top" aria-label="Taylan Transport"><img src="assets/img/logo.png" alt="Taylan Transport"></a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a class="btn sm" href="mailto:info@taylantransport.com?subject=Quote%20request">Get a Quote</a>
+    </nav>
+  </div>
+</header>
 
-    <body>
-		<!-- Start Preloader Area -->
-		<div class="preloader">
-			<div class="lds-ripple">
-				<div></div>
-				<div></div>
-			</div>
-		</div>
-		<!-- End Preloader Area -->
-		
-		<!-- Start Header Area -->
-		<header class="header-area">
-			<!-- Start Top Header -->
-			<div class="top-header top-header-two">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-8 col-md-10">
-							<ul class="header-left-content">
-								<li>
-									<i class="bx bx-home"></i>
-									Budapest, Ócsai út, 1239 Hungary
-								</li>
-								<!--
-									<li>
-									<i class="bx bx-phone-call"></i>
-									<a href="tel:+1-(123)-456-7890">+1 (123) 456 7890</a>
-								</li> 
-							     -->
-								<li>
-									<i class="bx bx-envelope"></i>
-									<a href="mailto:info@taylantransport.com">info@taylantransport.com</a>
-								</li>
-							</ul>
-						</div>
-
-						<div class="col-lg-4 col-md-2">
-							<div class="header-right-content">
-								<ul class="flag-area">
-									<li class="flag-item-top">
-										<a href="#" class="flag-bar">
-											<img src="assets/img/flag/en.png" alt="Image">
-											<span>EN</span>
-										</a>
-
-										<ul class="flag-item-bottom">
-											<li class="flag-item">
-												<a href="#" class="flag-link">
-													<img src="assets/img/flag/turkiye.png" alt="Image">
-													TR 
-												</a>
-											</li>
-											<li class="flag-item">
-												<a href="#" class="flag-link">
-													<img src="assets/img/flag/fr.png" alt="Image">
-													FR
-												</a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Start Top Header -->
-			
-			<!-- Start Navbar Area -->
-			<div class="navbar-area navbar-area-style-two">
-				<div class="mobile-nav">
-					<div class="container">
-						<div class="mobile-menu">
-							<div class="logo">
-								<a href="index.html">
-									<img src="assets/img/logo.png" alt="logo">
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-	
-				<div class="desktop-nav">
-					<div class="container">
-						<nav class="navbar navbar-expand-md navbar-light">
-							<a class="navbar-brand" href="index.html">
-								<img src="assets/img/logo.png" alt="logo">
-							</a>
-	
-							<div class="collapse navbar-collapse mean-menu">
-								<ul class="navbar-nav m-auto">
-									<li class="nav-item">
-										<a href="index.html" class="nav-link">Home</a>
-									</li>
-			
-									<li class="nav-item">
-										<a href="#services" class="nav-link">Services</a>
-									</li>
-
-									
-			
-								
-									<li class="nav-item">
-										<a href="#contact-us" class="nav-link">Contact Us</a>
-									</li>
-								</ul>
-								
-								<div class="others-option">
-									<div class="get-quote">
-										<a href="get-a-quote.html" class="default-btn">
-											<span>Get A Quote</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</nav>
-					</div>
-				</div>
-	
-				<div class="others-option-for-responsive">
-					<div class="container">
-						<div class="dot-menu">
-							<div class="inner">
-								<div class="circle circle-one"></div>
-								<div class="circle circle-two"></div>
-								<div class="circle circle-three"></div>
-							</div>
-						</div>
-						
-						<div class="container">
-							<div class="option-inner">
-								<div class="others-option justify-content-center d-flex align-items-center">
-									<div class="get-quote">
-										<a href="#contact-us" class="default-btn">
-											<span>Get A Quote</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End Navbar Area -->
-		</header>
-		<!-- End Header Area -->
-
-		<!-- Start Banner Area -->
-		<section class="banner-area banner-area-two">
-			<video loop muted autoplay poster="#" class="background-video">
-				<source src="assets/img/banner/banner-video.mp4" type="video/mp4">
-			</video>
-
-			<div class="d-table">
-				<div class="d-table-cell">
-					<div class="container">
-						<div class="banner-content">
-							<span class="top-title wow fadeInDown" data-wow-delay="1s">Welcome to Taylantransport.com</span>
-							<h1 class="wow fadeInDown" data-wow-delay="1s">Trailer & Container transportation from Sete/FR to everywhere.</h1> 
-								
-							<p class="wow fadeInLeft" data-wow-delay="1s">Join the millions getting bargain deals on transportation. </p>
-
-							<div class="banner-btn wow fadeInUp" data-wow-delay="1s">
-								<a href="#contact-us" class="default-btn">
-									<span>Get A Free Quote</span>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Banner Area -->
-
-				<!-- Start Services Area -->
-				<a name="services"> </a>
-				<section class="services-area services-area-two bg-color pt-100 pb-70">
-					<div class="container">
-						<div class="section-title">
-							<span>Our Services</span> 
-							<h2>We Are Trusted For Our Services</h2>
-							<p>info@taylantransport.com</p>
-						</div>
-		
-						<div class="row">
-							<div class="col-lg-4 col-sm-6">
-								<div class="single-services-box">
-									<a href="#" class="services-img">
-										<img src="assets/img/services/tt-1.webp" alt="Image">
-									</a>
-		
-									<div class="services-content">
-										<h3>
-											<a href="#">Towing Service</a>
-										</h3>
-										<p>Europe is our area of work. Sete/France is an important part of this. 
-											Taylan Transport provides container/trailer transport from Sete/FR to everywhere. 
-											Every day our trucks are on their way to and from France. All kinds of destinations are affected.
-											
-											The head office of Taylan Transport is located in Port of Sete France. Container/trailer transport to and from France is all arranged for you from there. 
-											 Transporting containers/trailers in all shapes and sizes is our specialty. Safety, efficiency and service are always paramount. </p>
-		
-					
-									</div>
-								</div>
-							</div>
-		
-							<div class="col-lg-4 col-sm-6">
-								<div class="single-services-box">
-									<a href="services-details.html" class="services-img">
-										<img src="assets/img/services/tt-2.webp" alt="Image">
-									</a>
-		
-									<div class="services-content">
-										<h3>
-											<a href="#">Road Transport (FTL/LTL)</a>
-										</h3>
-										<p>To address customer requirements and time expectations, Taylan Transport’s land transportation solutions offer Complete and Partial service options based on product volume. 
-											Needs may be the delivery of one order or more - a complex project with multiple orders. Taylan Transport assesses customers’ requirements to develop flexible solutions and 
-											provide loading spaces to ensure optimal transportation time.</p>
-		
-									</div>
-								</div>
-							</div>
-		
-							<div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-								<div class="single-services-box">
-									<a href="#" class="services-img">
-										<img src="assets/img/services/TT-3.webp" alt="Image">
-									</a>
-		
-									<div class="services-content">
-										<h3>
-											<a href="#">Customs Clearence</a>
-										</h3>
-										<p>Taylan Transport completes customs processes in the shortest period of time without any complications with its own international operations teams positioned at various customs locations 
-											and with courier operations which perform document flow in the fastest manner.</p>
-		
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- End Services Area -->
-
-		<!-- Start Partner Area--> 
-		<div class="partner-area bg-color ptb-70">
-			<div class="container">
-				<div class="row">
-					<div class="partner-slider owl-carousel owl-theme">
-						<div class="partner-item">
-							<a href="#">
-								<img src="assets/img/partner/partner-1.webp" alt="Image">
-							</a>
-						</div>
-						<div class="partner-item">
-							<a href="#">
-								<img src="assets/img/partner/partner-2.webp" alt="Image">
-							</a>
-						</div>
-						<div class="partner-item">
-							<a href="#">
-								<img src="assets/img/partner/partner-3.webp" alt="Image">
-							</a>
-						</div>
-						<div class="partner-item">
-							<a href="#">
-								<img src="assets/img/partner/partner-4.webp" alt="Image">
-							</a>
-						</div>
-						<div class="partner-item">
-							<a href="#">
-								<img src="assets/img/partner/partner-5.webp" alt="Image">
-							</a>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	
-		<!-- End Partner Area -->
-
-		<!-- Start About Us Area 
-		<a name="about-us"></a>
-		<section class="about-us-area pt-100 pb-70">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-6">
-						<div class="about-img about-img-two">
-							<img src="assets/img/banner.png" alt="Image">
-
-							<div class="experience">
-								<div class="">
-									<h2>Experienced team</h2>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-6">
-						<div class="about-content">
-							<span class="top-title">About Us</span>
-							<h2>Modern And Trusted Logistics Company</h2>
-							<p>We do our best to provide the best service for you. In order to facilitate the tracking of vehicles, special information is given to you.
-
-								With Trucking service, you can reduce your costs and increase your profits.</p>
-							
-							<ul>
-								<li>
-									<i class="bx bx-check"></i>
-									24/7 Business Support
-								</li>
-								<li>
-									<i class="bx bx-check"></i>
-									Secure Transportation
-								</li>
-								<li>
-									<i class="bx bx-check"></i>
-									World Wide Most Effective Business
-								</li>
-								<li>
-									<i class="bx bx-check"></i>
-									Easy And Quick Problem Analysis
-								</li>
-							</ul>
-
-							
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>-->
-
-		<!-- Start Track Area 
-
-<a name="get"></a>
-<section class="track-area ptb-100 jarallax" data-jarallax='{"speed": 0.3}'>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="tab quote-list-tab">
-                    <ul class="tabs" style="
-                        margin-top: 70px;" >
-                        <li>
-                            <a href="#">
-                                <i class="flaticon-location"></i>
-                                Container & Trailer Transportation
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Package (Goods) Transportation
-                                <i class="flaticon-truck"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <div class="tab_content">
-                        <div class="tabs_item">
-                            <form>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <h3>Personal Data</h3>
-                                    </div>
-
-                                    <div class="col-lg-4 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Your Name">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Your Email">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Your Phone">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-12">
-                                        <h3>Shipment Data</h3>
-                                    </div>
-
-                        
-
-                                    <div class="col-lg-4 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="City of Departure">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="to Which City">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    
-
-                                    <div class="col-lg-2 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Customs place">
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-lg-3 col-sm-6 col-md-3">
-                                        <label class="single-check">
-                                            Container
-                                            <input type="radio" checked="checked" name="radio">
-                                            <span class="checkmark"></span>
-                                        </label>
-                                    </div>
-
-                                    <div class="col-lg-3 col-sm-6 col-md-3">
-                                        <label class="single-check">
-                                            Trailer
-                                            <input type="radio" name="radio">
-                                            <span class="checkmark"></span>
-                                        </label>
-                                    </div>
-
-                                    <div class="col-12">
-                                        <button type="submit" class="default-btn">
-                                            Request A Quote
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-							<div class="tabs_item">
-								<form>
-									<div class="row">
-										<div class="col-12">
-											<h3>Personal Data</h3>
-										</div>
-	
-										<div class="col-lg-4 col-sm-6">
-											<div class="form-group">
-												<input type="text" class="form-control" placeholder="Your Name">
-											</div>
-										</div>
-	
-										<div class="col-lg-4 col-sm-6">
-											<div class="form-group">
-												<input type="email" class="form-control" placeholder="Your Email">
-											</div>
-										</div>
-	
-										<div class="col-lg-4">
-											<div class="form-group">
-												<input type="text" class="form-control" placeholder="Your Phone">
-											</div>
-										</div>
-									</div>
-	
-									<div class="row">
-										<div class="col-12">
-											<h3>Shipment Data</h3>
-										</div>
-	
-										
-	
-										<div class="col-lg-4 col-sm-6">
-											<div class="form-group">
-												<input type="text" class="form-control" placeholder="City of Departure">
-											</div>
-										</div>
-	
-										<div class="col-lg-4">
-											<div class="form-group">
-												<input type="text" class="form-control" placeholder="To Which City">
-											</div>
-										</div>
-									</div>
-	
-									<div class="row">
-									
-	
-										<div class="col-lg-2 col-sm-6">
-											<div class="form-group">
-												<input type="text" class="form-control" placeholder="Width">
-											</div>
-										</div>
-	
-										<div class="col-lg-2 col-sm-6">
-											<div class="form-group">
-												<input type="text" class="form-control" placeholder="Weight">
-											</div>
-										</div>
-	
-										<div class="col-lg-2 col-sm-6">
-											<div class="form-group">
-												<input type="text" class="form-control" placeholder="Length">
-											</div>
-										</div>
-	
-										<div class="col-lg-2">
-											<div class="form-group">
-												<input type="text" class="form-control" placeholder="Height">
-											</div>
-										</div>
-									</div>
-	
-									<div class="row">
-										<div class="col-lg-3 col-sm-6 col-md-3">
-											<label class="single-check">
-												Road Freight
-												<input type="radio" checked="checked" name="radio">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-	
-										<div class="col-lg-3 col-sm-6 col-md-3">
-											<label class="single-check">
-												Express Delivery
-												<input type="radio" name="radio">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-	
-									
-	
-										<div class="col-lg-3 col-sm-6 col-md-3">
-											<label class="single-check">
-												Air Freight
-												<input type="radio" name="radio">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-	
-										<div class="col-12">
-											<button type="submit" class="default-btn">
-												Request A Quote
-											</button>
-										</div>
-									</div>
-								</form>
-							</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<main id="top">
+  <section class="hero">
+    <video autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+      <source src="assets/img/banner/banner-video.mp4" type="video/mp4">
+    </video>
+    <div class="wrap">
+      <h1>Container &amp; trailer transport from <span>Sète, France</span> to all of Europe</h1>
+      <p>Road transport, full and partial loads, and customs clearance, run from our office at the Port of Sète.</p>
+      <a class="btn" href="mailto:info@taylantransport.com?subject=Quote%20request">Request a free quote</a>
     </div>
-</section>
--->
-<!-- End Track Area -->
+  </section>
 
+  <section id="services">
+    <div class="wrap">
+      <p class="kicker">What we do</p>
+      <h2>Our services</h2>
+      <p class="lead">Europe is our area of work. Our trucks travel to and from France every day, to all kinds of destinations.</p>
+      <div class="cards">
+        <article class="card">
+          <img src="assets/img/services/tt-1.webp" alt="Container trailer on the road" loading="lazy">
+          <div>
+            <h3>Container &amp; trailer transport</h3>
+            <p>Moving containers and trailers of every shape and size is our specialty. We handle transport to and from France from our head office at the Port of Sète.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/img/services/tt-2.webp" alt="Truck for road freight" loading="lazy">
+          <div>
+            <h3>Road transport (FTL / LTL)</h3>
+            <p>Full and partial loads, matched to your volume and delivery time. We handle anything from a single order to a complex project with many orders.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/img/services/TT-3.webp" alt="Customs clearance" loading="lazy">
+          <div>
+            <h3>Customs clearance</h3>
+            <p>Our international operations teams at customs locations clear your shipments quickly. Courier operations keep the paperwork moving fast.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
 
-<!-- Start Contact Info Area -->
-	
+  <section id="about" class="about">
+    <div class="wrap">
+      <div>
+        <p class="kicker">About us</p>
+        <h2>A modern, trusted logistics company</h2>
+        <p class="lead" style="margin-bottom:0">Taylan Transport has its head office at the Port of Sète, France, and an office in Budapest, Hungary. Safety, efficiency and service always come first, and we give you the information you need to follow your shipment.</p>
+      </div>
+      <ul>
+        <li>24/7 business support</li>
+        <li>Secure transportation</li>
+        <li>Daily trucks to and from France</li>
+        <li>Fast, simple customs handling</li>
+      </ul>
+    </div>
+  </section>
 
-<section class="contact-info-area bg-color pt-100 pb-70">
-	<div class="container">
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <p class="kicker">Contact</p>
+      <h2>Get in touch</h2>
+      <p class="lead">To request a quote or ask a question, email us and we will get back to you.</p>
+      <div class="grid">
+        <div class="box">
+          <h3>Email</h3>
+          <p><a href="mailto:info@taylantransport.com">info@taylantransport.com</a></p>
+        </div>
+        <div class="box">
+          <h3>Sète – France (head office)</h3>
+          <p>Route Pontmartin, Port de Sète<br>34200 Sète, France</p>
+        </div>
+        <div class="box">
+          <h3>Budapest – Hungary</h3>
+          <p>Ócsai út<br>1239 Budapest, Hungary</p>
+        </div>
+      </div>
+      <iframe class="map" title="Taylan Transport, Port of Sète" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2898.197431170478!2d3.7196016158348404!3d43.414701579130245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b135a854df91ed%3A0x9309cc3c7d1a1651!2sTaylan%20Transport!5e0!3m2!1sen!2sfr!4v1666638177548!5m2!1sen!2sfr"></iframe>
+    </div>
+  </section>
+</main>
 
-		
-		<div class="row">
-			<div class="col-lg-3 col-sm-6">
-				<div class="single-contact-info">
-					<i class="bx bx-envelope"></i>
-					<h3>Email Us:</h3>
-					<a href="mailto:info@taylantransport.com">info@taylantransport.com</a>
-				</div>
-			</div>
-<!-- start call us 
-			<div class="col-lg-3 col-sm-6">
-				<div class="single-contact-info">
-					<i class="bx bx-phone-call"></i>
-					<h3>Call Us:</h3>
-					<a href="tel:+1-(123)-456-7890">Tel. +1 (123) 456 7890</a>
-					<a href="tel:+1-(514)-312-6678">Tel. +1 (514) 312-6678</a>
-				</div>
-			</div>
-			 -->
+<footer>
+  <div class="wrap">
+    <span>© 2026 Taylan Transport</span>
+    <a href="mailto:info@taylantransport.com">info@taylantransport.com</a>
+  </div>
+</footer>
 
-			<div class="col-lg-3 col-sm-6">
-				<div class="single-contact-info">
-					<i class="bx bx-location-plus"></i>
-					<h3>Budapest - Hungary</h3>
-					<a href="#">Budapest, Ócsai út, 1239 Hungary</a>
-				</div>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<div class="single-contact-info">
-					<i class="bx bx-location-plus"></i>
-					<h3>Séte - France</h3>
-					<a href="#">Route Pontmartin,Port de Séte, 34200 Séte/France</a>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-</section>
-<!-- End Contact Info Area -->
-
-<!-- Start Contact Area -->
-<form id="contactForm">
-<a name="contact-us"></a>
-<section class="main-contact-area ptb-100">
-	<div class="container">
-		<div class="section-title">
-			<h2>Drop Us A Message For Any Query</h2>
-		</div>
-
-		<form id="contactForm">
-			<div class="row">
-				<div class="col-lg-6 col-sm-6">
-					<div class="form-group">
-						<input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Your Name">
-						<div class="help-block with-errors"></div>
-					</div>
-				</div>
-
-				<div class="col-lg-6 col-sm-6">
-					<div class="form-group">
-						<input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="Your Email">
-						<div class="help-block with-errors"></div>
-					</div>
-				</div>
-
-				<div class="col-lg-6 col-sm-6">
-					<div class="form-group">
-						<input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Your Phone">
-						<div class="help-block with-errors"></div>
-					</div>
-				</div>
-
-				<div class="col-lg-6 col-sm-6">
-					<div class="form-group">
-						<input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Your Subject">
-						<div class="help-block with-errors"></div>
-					</div>
-				</div>
-
-				<div class="col-lg-12 col-md-12">
-					<div class="form-group">
-						<textarea name="message" class="form-control" id="message" cols="30" rows="10" required data-error="Write your message" placeholder="Your Message"></textarea>
-						<div class="help-block with-errors"></div>
-					</div>
-				</div>
-
-				
-
-				<div class="col-12">
-					<button type="submit" class="default-btn btn-two">
-						<span class="label">Send Message</span>
-						<i class='bx bx-plus'></i>
-					</button>
-					<div id="msgSubmit" class="h3 text-center hidden"></div>
-						<div class="clearfix"></div>
-				</div>
-			</div>
-		</form>
-	</div>
-</section>
-</form>
-<!-- End Contact Area -->
-
-<!-- Start Map Area -->
-
-
-<div class="map-area">
-	<iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2898.197431170478!2d3.7196016158348404!3d43.414701579130245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b135a854df91ed%3A0x9309cc3c7d1a1651!2sTaylan%20Transport!5e0!3m2!1sfr!2sfr!4v1666638177548!5m2!1sfr!2sfr"></iframe>
-</div>
-
-<!-- End Map Area -->
-
-
-		
-
-		<!-- Start Footer Area 
-		<footer class="footer-area pt-100 pb-700">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-6">
-						<div class="single-footer-widget">
-							<a href="index.html" class="logo">
-								<img src="assets/img/logo.png" alt="Image">
-							</a>
-
-							<p>We do our best to provide the best service for you. In order to facilitate the tracking of vehicles, special information is given to you. With Trucking service, you can reduce your costs and increase your profits.</p>
-
-							<ul class="social-icon">
-								<li>
-									<a href="#">
-										<i class="bx bxl-facebook"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<i class="bx bxl-instagram"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<i class="bx bxl-linkedin-square"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<i class="bx bxl-twitter"></i>
-									</a>
-								</li>
-							</ul>
-							Area -->
-						</div>
-					</div>
-
-					
-
-					
-		<!-- End Footer Area -->
-
-		<!-- Start Copy Right Area -->
-		<div class="copy-right-area">
-			<div class="container">
-				<p>
-					Copyright <i class="bx bx-copyright"></i>2023 Taylan Transport
-				</p>
-			</div>
-		</div>
-		<!-- End Copy Right Area -->
-		
-		<!-- Start Go Top Area -->
-		<div class="go-top">
-			<i class="bx bx-chevrons-up"></i>
-			<i class="bx bx-chevrons-up"></i>
-		</div>
-		<!-- End Go Top Area -->
-		
-
-        <!-- Jquery Min JS -->
-        <script src="assets/js/jquery.min.js"></script>
-        <!-- Bootstrap Bundle Min JS -->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <!-- Meanmenu Min JS -->
-		<script src="assets/js/meanmenu.min.js"></script>
-        <!-- Wow Min JS -->
-        <script src="assets/js/wow.min.js"></script>
-        <!-- Owl Carousel Min JS -->
-		<script src="assets/js/owl.carousel.min.js"></script>
-        <!-- Nice Select Min JS -->
-		<script src="assets/js/nice-select.min.js"></script>
-        <!-- Magnific Popup Min JS -->
-		<script src="assets/js/magnific-popup.min.js"></script>
-		<!-- Jarallax Min JS --> 
-		<script src="assets/js/jarallax.min.js"></script>
-		<!-- Appear Min JS --> 
-        <script src="assets/js/appear.min.js"></script>
-		<!-- Odometer Min JS --> 
-		<script src="assets/js/odometer.min.js"></script>
-		<!-- Smoothscroll Min JS --> 
-		<script src="assets/js/smoothscroll.min.js"></script>
-		<!-- Form Validator Min JS -->
-		<script src="assets/js/form-validator.min.js"></script>
-		<!-- Contact JS -->
-		<script src="assets/js/contact-form-script.js"></script>
-		<!-- DORM JS -->
-		<script src="assets/js/get-form-script.js"></script>
-		<!-- Ajaxchimp Min JS -->
-		<script src="assets/js/ajaxchimp.min.js"></script>
-        <!-- Custom JS -->
-		<script src="assets/js/custom.js"></script>
-    </body>
+</body>
 </html>
